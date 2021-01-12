@@ -10,8 +10,8 @@ const loginRoutes = require('./routes/login')
 
 app.use('/',indexRoutes)
 app.use('/user',userRoutes)
-app.use('/product',indexRoutes)
-app.use('/login',userRoutes)
+app.use('/product',productRoutes)
+app.use('/login',loginRoutes)
 
 
 app.get('/', (req, res) => {

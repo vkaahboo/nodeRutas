@@ -22,13 +22,5 @@ router.get('/empleados',(req,res) =>{
 })
 
 
-
-
-
-
-
-
-
-
 //exporta el modulo completo
 module.exports = router;

@@ -26,3 +26,12 @@ los comandos
 
 git init
 crear archivo .gitignore y colocar node_modules
+git add . para agregar los archivos
+git status para ver que archivos estan agregados 
+git commit -m "y el mensaje que se quiera colocar"
+git remote add origin https://github.com/vkaahboo/nodeRutas.git pegar
+    el enlace del repositorio creado en github
+git push -u origin master colocar la rama master o la 
+    que se esta trabajando
+(si se sube )
+se actualiza la pag en github y debe estar los archivos
