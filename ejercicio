@@ -1,0 +1,28 @@
+Crear un proyeto node:
+
+-crear servidor express
+-crear cuatro archivos de rutas
+    index.js
+    user.js
+    product.js
+    login.js
+
+1. index.js = crear tres rutas '/', '/fabrica', '/empleados' cada una
+con sus mensajes
+
+2. user.js = crear tres rutas '/', '/altura', '/edad' cada una
+con sus mensajes
+
+3. product.js = crear tres rutas '/calzado', '/pantalon', '/relog' 
+
+4. login.js = crear tres rutas '/', '/si', '/no/:mensaje' = envia
+un mensaje con la ruta en la que te encuentras, mostrar variable
+dinamica con un console.log
+
+-----------------------
+
+para subir a git,  luego de instalar todo el proyecto normal seguimos con 
+los comandos
+
+git init
+crear archivo .gitignore y colocar node_modules
